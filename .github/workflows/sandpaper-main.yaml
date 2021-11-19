@@ -34,17 +34,13 @@ jobs:
         with:
           use-public-rspm: true
 
-      - name: "report rspm status"
-        shell: Rscript {0}
-        run: 'source("https://packagemanager.rstudio.com/__docs__/admin/check-user-agent.R")'
-
       - name: "Set up Pandoc"
         uses: r-lib/actions/setup-pandoc@v1
         with:
           pandoc-version: "2.11.4"
 
       - name: "Setup Lesson Engine"
-        uses: carpentries/actions/setup-sandpaper-pak@auto-pkg
+        uses: carpentries/actions/setup-sandpaper@auto-pkg
         with:
           cache-version: ${{ secrets.CACHE_VERSION }}
 
