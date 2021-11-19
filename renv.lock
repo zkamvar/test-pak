@@ -881,14 +881,16 @@
     },
     "stringi": {
       "Package": "stringi",
-      "Version": "1.7.5.9001",
-      "Source": "Repository",
-      "Repository": "https://carpentries.r-universe.dev",
-      "RemoteType": "repository",
-      "RemoteUrl": "https://github.com/gagolews/stringi",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "840365a459da83fee56980fb51a39081f7196ff2",
-      "Hash": "a4cedfa1a351381eabc86af31c053a19"
+      "Version": "1.7.5",
+      "Source": "CRAN",
+      "Repository": "RSPM",
+      "RemoteType": "standard",
+      "RemotePkgRef": "stringi",
+      "RemoteRef": "stringi",
+      "RemoteRepos": "https://packagemanager.rstudio.com/all/__linux__/focal/latest",
+      "RemotePkgPlatform": "source",
+      "RemoteSha": "1.7.5",
+      "Hash": "cd50dc9b449de3d3b47cdc9976886999"
     },
     "stringr": {
       "Package": "stringr",
