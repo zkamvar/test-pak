@@ -403,10 +403,10 @@
     },
     "poppr": {
       "Package": "poppr",
-      "Version": "2.9.3",
+      "Version": "2.9.2",
       "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "6c359d4eb4e54c01f8a2661e3c188262"
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/focal/latest",
+      "Hash": "5ed9e7e8b46fe5ccea790d320a14177c"
     },
     "progressr": {
       "Package": "progressr",
