@@ -20,7 +20,7 @@ on:
 jobs:
   full-build:
     name: "Build Full Site"
-    runs-on: "ubuntu-latest"
+    runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       RENV_PATHS_ROOT: ~/.local/share/renv/
@@ -40,12 +40,12 @@ jobs:
           pandoc-version: "2.11.4"
 
       - name: "Setup Lesson Engine"
-        uses: carpentries/actions/setup-sandpaper@auto-pkg
+        uses: carpentries/actions/setup-sandpaper@main
         with:
           cache-version: ${{ secrets.CACHE_VERSION }}
 
       - name: "Setup Package Cache"
-        uses: carpentries/actions/setup-lesson-deps@auto-pkg
+        uses: carpentries/actions/setup-lesson-deps@main
         with:
           cache-version: ${{ secrets.CACHE_VERSION }}
 

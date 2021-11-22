@@ -98,7 +98,7 @@ jobs:
 
       - name: "Update {renv} deps and determine if a PR is needed"
         id: update
-        uses: carpentries/actions/update-lockfile@auto-pkg
+        uses: carpentries/actions/update-lockfile@main
         with:
           cache-version: ${{ secrets.CACHE_VERSION }}
 
