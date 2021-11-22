@@ -11,6 +11,10 @@
         "URL": "https://carpentries.github.io/drat"
       },
       {
+        "Name": "RSPM",
+        "URL": "https://packagemanager.rstudio.com/all/latest"
+      },
+      {
         "Name": "CRAN",
         "URL": "https://cran.rstudio.com"
       }
@@ -679,10 +683,16 @@
     },
     "poppr": {
       "Package": "poppr",
-      "Version": "2.9.2",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "5ed9e7e8b46fe5ccea790d320a14177c"
+      "Version": "2.9.3",
+      "Source": "CRAN",
+      "Repository": "RSPM",
+      "RemoteType": "standard",
+      "RemotePkgRef": "poppr",
+      "RemoteRef": "poppr",
+      "RemoteRepos": "https://packagemanager.rstudio.com/all/__linux__/focal/latest",
+      "RemotePkgPlatform": "source",
+      "RemoteSha": "2.9.3",
+      "Hash": "6c359d4eb4e54c01f8a2661e3c188262"
     },
     "progressr": {
       "Package": "progressr",
